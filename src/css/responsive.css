@@ -1,5 +1,26 @@
 /* This media query is used only for mobile devices */
 @media only screen and (max-width: 767px) {
+  .box {
+    margin-top: 35px;
+  }
+  .footerWrap {
+    flex-direction: column-reverse;
+    padding: 30px 0px;
+    justify-content: unset;
+  }
+  .nav_wrapper {
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 80px;
+    padding: 20px 35px;
+    background: #f2f3f3;
+    transition: all 0.3s ease-in-out;
+  }
 }
 /* This media query is used only for small tablet devices */
 @media only screen and (min-width: 768px) and (max-width: 990px) {
